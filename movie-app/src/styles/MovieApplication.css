@@ -1,0 +1,41 @@
+#movies {
+  margin: 0;
+  padding: 0;
+}
+
+#movies > li {
+  list-style: none;
+  background-color: #eee;
+  margin: 5px;
+  padding: 20px;
+  box-shadow: 0 0 5px #999;
+}
+
+#movies > li > img.delete-movie-icon {
+  float: right;
+  height: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.movie-star {
+  height: 25px;
+  margin: 0 2px 0 5px;
+}
+
+.button-container {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+fieldset {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+}
